@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.box {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* common thing on css */
+.banner {
+    display: flex;
+}
+
+.text_part {
+    width: 50%;
+    padding: 90px 0 12px 45px;
+    position: relative;
+}
+
+.lomba_line {
+    height: 100px;
+    width: 5px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 105px;
+    left: 38px;
+    border-radius: 2px;
+}
+
+.main_text h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+
+.main_text h2 {
+    font-size: 40px;
+    color: rgb(255, 153, 0);
+    text-transform: capitalize;
+    padding-left: 20px;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 600;
+}
+
+.main_text p {
+    font-size: 20px;
+    padding-left: 10px;
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+}
+
+.main_text span {
+    color: rgb(255, 153, 0);
+}
+
+
+.photo_part {
+    width: 50%;
+
+}
+
+.photo_part img {
+    width: 60%;
+    float: right;
+}
+
+.button1 {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.button1 :hover {
+    background-color: rgb(255, 153, 0);
+    color: blueviolet;
+    transition: .3s;
+}
+
+.button1 a {
+    background-color: blueviolet;
+    padding: 10px 45px;
+    color: cornsilk;
+    font-size: 24px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+/* =======================
+============================ */
+.mission {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.mission h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 600;
+}
+
+.mission span {
+    color: rgb(255, 153, 0);
+}
+
+.miss {
+
+    float: left;
+    width: 30%;
+    background-color: rgba(220, 20, 60, .7);
+    padding: 30px 10px 10px 10px;
+    border-radius: 12px;
+    margin-right: 20px;
+    margin-left: 10px;
+    box-shadow: 3px 2px 9px 4px rgb(255 153 0);
+}
+
+.miss :hover {
+    box-shadow: 3px 2px 9px 4px rgb(255 153 0);
+}
+
+
+
+
+.miss h2 {
+    text-transform: capitalize;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 600;
+
+}
+
+.miss p {
+    text-transform: capitalize;
+}
+
+
+.p1 img {
+    width: 30%;
+
+    padding-left: 80px;
+}
+
+.viss {
+    float: left;
+    width: 30%;
+    background-color: cyan;
+    padding: 30px 10px 10px 10px;
+    border-radius: 12px;
+    margin-right: 20px;
+    box-shadow: 3px 2px 9px 4px rgb(255 153 0);
+}
+
+.viss :hover {
+    box-shadow: 3px 2px 9px 4px rgb(255 153 0);
+}
+
+.viss h2 {
+    text-transform: capitalize;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 600;
+
+}
+
+.viss p {
+    text-transform: capitalize;
+}
+
+.goal {
+    float: left;
+    width: 30%;
+    background-color: rgb(129, 156, 156);
+    padding: 30px 10px 10px 10px;
+    border-radius: 12px;
+    margin-right: 20px;
+    box-shadow: 3px 2px 9px 4px rgb(255 153 0);
+}
+
+.goal :hover {
+    box-shadow: 3px 2px 9px 4px rgb(255 153 0);
+}
+
+.goal h2 {
+    text-transform: capitalize;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 600;
+
+}
+
+.goal p {
+    text-transform: capitalize;
+}
+
+/* ==============================
+================================================== */
+.develop {
+    display: flex;
+    padding-top: 80px;
+}
+
+.pro_img {
+    width: 55%;
+    padding-left: 50px;
+}
+
+.pro_img img {
+    width: 100%;
+}
+
+.dev_text {
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.dev_text span {
+    color: rgb(255 153 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.dev_text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.dev_text p {
+    font-size: 17px;
+    padding: 11px 260px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* ===============================
+==================================== */
+.Community {
+    display: flex;
+    padding-top: 80px;
+}
+
+.pro_img2 {
+    width: 55%;
+    padding-left: 50px;
+}
+
+.pro_img2 img {
+    width: 100%;
+
+}
+
+.com_text {
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.com_text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.com_text span {
+    color: rgb(255, 153, 0);
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 600;
+}
+
+
+.com_text p {
+    font-size: 17px;
+    padding: 11px 260px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* ==========================================
+===================================
+====================== */
+.explore {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.ex_photo {
+    width: 40%;
+    padding-left: 50px;
+}
+
+.ex_photo img {
+    width: 100%;
+}
+
+.ex_text {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.ex_text h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.ex_text span {
+    color: rgb(255, 153, 0);
+    padding-bottom: 20px;
+}
+
+.ex_text h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* }=====================
+=====================================
+=============== */
+.footer h1 {
+    color: #fff;
+
+}
+
+.footer span {
+
+    color: blueviolet;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 600;
+}
